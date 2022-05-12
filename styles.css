@@ -1,14 +1,43 @@
 
+html, body {
+    height: 100%;
+}
+
 body {
     display: flex;
+    align-items: center;
     justify-content: center;
     background-color: hsl(212, 45%, 89%);
     font-size: 15px;
     font-family: 'Outfit', sans-serif;
+    text-align: center;
 }
 
 main {
     background-color: white;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    border-radius: 15px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.qr-text {
+    padding: 1em;
+}
+
+h1 {
+    font-size: 22px;
+    color: hsl(218, 44%, 22%);
+}
+
+p {
+    margin-top: 0.5em;
+    color: hsl(220, 15%, 55%);
 }
 
 .attribution { font-size: 11px; text-align: center; }
