@@ -1,0 +1,15 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+}
+
+main {
+    background-color: white;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
